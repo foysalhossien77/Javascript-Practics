@@ -40,7 +40,7 @@ const institute = {
 //Use ANY data types, return ANY data type, short-ciucuiting
 console.log('----- OR -----');
 
-//If there is a falsy value then or operator skip that. and when they find a truthy value then they execute that and skip other truthy values
+//If there is a falsy value then or operator skip that. and when they find a truthy value then they execute that and skip other truthy values [First truthy value executed]
 
 /////OR operator will return the first truthy value of all the operandes, or simply the last value if all of them are falsy
 
