@@ -29,11 +29,11 @@ const allDepertment = [
 console.log(allDepertment);
 for (const subject of allDepertment) console.log(subject);
 
-for (const subject of allDepertment.entries()) {
+for (const subject of allDepertment.entries()) {  //The entries returned the index number and the element itselt
   console.log(subject);
 }
 
-for (const subject of allDepertment.entries()) {
+for (const subject of allDepertment.entries()) {  //The entries returned the index number and the element itselt
   console.log(`${subject[0] + 1}: ${subject[1]} `);
 }
 
